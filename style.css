@@ -23,6 +23,7 @@ img {
 
 img:hover {
     box-shadow: 0 0 2px 1px rgba(248, 244, 6, 0.973);
+    transform: scale(1.5) translateY(-3px);
   }
 
 #links {
