@@ -1,50 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Padmanabha Raju Sagi</title>
-  <!-- fevicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="images/fevicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/fevicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/fevicon/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <!-- css -->
-  <link rel="stylesheet" type="text/css" href="style.css">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div id="links">
-    <img src="https://avatars1.githubusercontent.com/u/33729221?v=4" style="width: 100px">
-    <br>
-    <span>Padmanabha Raju Sagi</span>
-    <br>
-    <a href="https://github.com/spnraju" target="_blank" class="fa fa-github-square" style="font-size:36px;color: white"></a>
-    <a href="https://www.linkedin.com/in/padmanabharajusagi/" target="_blank" class="fa fa-linkedin-square"
-      style="font-size:36px;color: white"></a>
-    <a href="https://twitter.com/spnraju" target="_blank" class="fa fa-twitter-square" style="font-size:36px;color: white"></a>
-    <a href="https://stackoverflow.com/users/3879644/raju" target="_blank" class="fa fa-stack-overflow" style="font-size:36px;color: white"></a>
-    <a href="mailto:padmanabharaju.sagi@gmail.com" target="_blank" class="fa fa-envelope" style="font-size:36px;color: white"></a>
-    
-    <!-- <a href="skype:spnrajuteja?chat" class="fa fa-skype" style="font-size:48px;color: white"></a> -->
-  </div>
-  <div id="about">
-    <h2>About me</h2>
-    <p>I am Raju from India. I am an experienced professional in testing and Test Automation. I have more than 6 years of total experience. I am a supporter of open
-      source tools and technologies. Below is a summary of my experience</p>
-    <ul>
-      <li>Good Experience in testing GUIs (E2E and Cross Browser Testing), GUI Components, APIs and ETL Reports</li>
-      <li>Have been working on <b>NightwatchJS (NodeJS)</b> and <b>CucumberJS</b> for the last 1.5 Years and was involved in setting up Hybrid framework</li>
-      <li>Have worked on <b>Selenium WebDriver (Java)</b> for 4 Years and improved the hybrid framework based on application enhancements</li>
-      <li>Have worked on <b>API testing</b> using Parasoft, SoapUI and SuperTest</li>
-      <li>Have been involved in Automation Script reviews for peers in other teams through Pull requests in Azure DevOps</li>
-      <li>Have been involved in setting up and maintaining <b>CI Pipelines</b> for automation testing in Azure DevOps and Travis</li>
-      <li>Have been using GIT for version control, Rally and Azure DevOps for Project Management and Jira for requirements management</li>
-      <li>Have been working in Agile (Scrum and SAFe) for the last 5 Years</li>
-    </ul>
-  </div>
+  <header>
+    <!-- <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+      </ul>
+    </nav> -->
+  </header>
+
+  <!--Introduction-->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hello! I am <strong>Padmanabha Raju Sagi (Raju)</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">Senior Software Development Engineer in Test (SDET)</p>
+    <img src="https://avatars1.githubusercontent.com/u/33729221?v=4" alt="Raju's picture" class="intro__img">
+    <div class="social">
+      <a href="https://github.com/spnraju" target="_blank" class="fa fa-github-square"></a>
+      <a href="https://www.linkedin.com/in/padmanabharajusagi/" target="_blank" class="fa fa-linkedin-square"></a>
+      <a href="https://twitter.com/spnraju" target="_blank" class="fa fa-twitter-square"></a>
+      <a href="https://stackoverflow.com/users/3879644/raju" target="_blank" class="fa fa-stack-overflow"></a>
+      <a href="mailto:padmanabharaju.sagi@gmail.com" target="_blank" class="fa fa-envelope"></a>
+    </div>
+    <div class="credits">
+      <p><strong>Portfolio design credits:</strong> Thanks a lot for your awesome @scrimba course, @KevinJPowell! https://scrimba.com/g/gportfolio</p>
+    </div>
+  </section>
+
+  <!--My Services-->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+      <div class="service">
+        <h3>QUALITY</h3>
+        <p>Over 7 years of my total experience, I have been helping Agile organizations and teams that are from different industries like Media, Travel commerce and Banking in improving their product Quality using latest tools and technologies. I have been helping them improving Quality at different layers like UIs, APIs and Databases.</p>
+      </div>
+      <div class="service">
+        <h3>AUTOMATION</h3>
+        <p>I have hands on experience in multiple test automation tools and technologies. I have worked on Java based automation tools like Selenium WebDriver in the initial 4 yrs of career. But over the last 3 years, I have been using and working on Javascript based automation tools like WebDriverIO, NightwatchJS, CucumberJS SuperTest etc..,</p>
+      </div>
+      <div class="service">
+        <h3>AGILE, CI/CD</h3>
+        <p>I was fortunate to start my IT career when the industry was moving from traditional methodologies to Agile. I have worked in a team that was using Agile Scrum for their delivery. Since then, I have worked in different teams where they were using different flavors of Agile like SAFe, Agile WoW etc.., As part of all these assignments and open source contribution, I had the privilege to work on CI/CD tools like Azure DevOps and Jenkins.</p>
+      </div>
+    </div>
+    <a href="#work" class="btn">My Work</a>
+  </section>
+
+  <!--About me-->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">Test Automation Specialist</p>
+    <div class="about--me__body">
+      <p>I have hands on experience in testing GUIs (E2E and Cross Browser), Web Components, APIs, Databases and ETL Jobs</p>
+      <p>I have been working on NodeJS based test automation tools like WebDriverIO, NightwatchJS and CucumberJS over the last three years</p>
+      <p>I have experience in setting up new frameworks and also in making improvements to existing frameworks</p>
+      <p>I have hands on experience in setting up and maintaining CI/CD pipelines for automation testing in Azure DevOps and Jenkins</p>
+      <p>I am currently in Madrid, Spain on a Internation assignment but basically from India</p>
+      <p>I am a Graduate of Bachelor in Electronics and Communication Engineering</p>
+    </div>
+  </section>
+
+    <!-- My Work
+    <section class="my-work" id="work">
+      <h2 class="section__title">My Work</h2>
+      <p class="section__subtitle"></p>
+      <div class="portfolio">
+        <a href="#" class="portfolio__item">
+          <img src="" alt="" class="portfolio__img">
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="" alt="" class="portfolio__img">
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="" alt="" class="portfolio__img">
+        </a>
+      </div>
+    </section> -->
+
+    <!--Footer-->
+    <footer>
+      <!-- <a href="mailto:padmanabharaju.sagi@gmail.com" class="footer-link">Email</a>
+      <ul class="social-list">
+        <li class="social-list__item"><a class="social-list__link" href="">a</a></li>
+        <li class="social-list__item"><a class="social-list__link" href="">b</a></li>
+        <li class="social-list__item"><a class="social-list__link" href="">c</a></li>
+        <li class="social-list__item"><a class="social-list__link" href="">d</a></li>
+      </ul> -->
+    </footer>
 
 </body>
 
