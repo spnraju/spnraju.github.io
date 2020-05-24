@@ -59,6 +59,18 @@ img {
 
 strong { font-weight: var(--fw-bold) }
 
+.blink {
+    animation: blinker 2.0s linear infinite;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    }
+    @keyframes blinker {  
+    50% { opacity: 0; }
+    }
+
 /* Buttons */
 
 .btn {
