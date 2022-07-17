@@ -141,6 +141,7 @@ nav {
 
 .intro__img {
     box-shadow: var(--bs);
+    border-radius: 60%;
 }
 
 .section__subtitle--intro {
