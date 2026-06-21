@@ -1,4 +1,3 @@
-// src/context/ThemeContext.jsx
 import { createContext, useContext, useState, useEffect } from 'react';
 
 const ThemeContext = createContext();
@@ -16,7 +15,7 @@ export function ThemeProvider({ children }) {
     } catch (e) {
       console.warn("Storage access restricted:", e);
     }
-    return 'dark'; // Safe fallback baseline
+    return 'dark';
   });
 
   useEffect(() => {

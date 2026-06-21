@@ -1,6 +1,3 @@
-/* src/styles.css */
-
-/* 1. Define global theme variables with safe fallback default profiles */
 :root, .theme-dark {
   --bg-main: #0f172a;
   --bg-card: #1e293b;
@@ -19,7 +16,6 @@
   --border-color: #cbd5e1;
 }
 
-/* 2. Global HTML Document Resets */
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -35,7 +31,6 @@ body {
   padding: 3rem 1.5rem;
 }
 
-/* 3. Reusable Architecture Elements */
 h1 {
   font-size: 2.5rem;
   margin: 0 0 0.5rem 0;
@@ -72,13 +67,11 @@ h2 {
   border-color: var(--accent-blue);
 }
 
-/* 🚀 4. Mobile Responsive Infrastructure Overrides */
 @media (max-width: 768px) {
   .portfolio-container {
     padding: 1.5rem 1rem;
   }
 
-  /* Force Navbar contents to stack cleanly */
   .nav-links {
     flex-direction: column !important;
     gap: 1rem;
@@ -92,19 +85,16 @@ h2 {
     gap: 0.75rem !important;
   }
 
-  /* Flip structural hero text & photo profile card stacks vertically */
   .responsive-hero {
     flex-direction: column-reverse !important;
     align-items: center;
     text-align: center;
   }
 
-  /* Align Section titles cleanly on mobile layouts */
   h2 {
     text-align: left;
   }
 
-  /* Reflow contact information matrix */
   .contact-grid {
     grid-template-columns: 1fr !important;
     gap: 2.5rem !important;

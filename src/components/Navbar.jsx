@@ -1,7 +1,6 @@
 // src/components/Navbar.jsx
 import { Link, useLocation } from 'react-router';
 import { useTheme } from '../context/ThemeContext.jsx';
-// 🚀 FIXED: Removed the accidental string expression to restore standard valid JavaScript paths
 import { FaSun, FaMoon } from 'react-icons/fa'; 
 
 export default function Navbar() {

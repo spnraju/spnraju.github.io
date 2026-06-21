@@ -35,7 +35,7 @@ export default function Contact() {
           <h2>Social Networks</h2>
           <div style={{ display: 'flex', gap: '1rem', marginTop: '1.5rem' }}>
             <a 
-              href="https://github.com" 
+              href="https://github.com/spnraju" 
               target="_blank" 
               rel="noreferrer"
               title="Connect on GitHub"
@@ -52,7 +52,7 @@ export default function Contact() {
             </a>
             
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/spnraju/" 
               target="_blank" 
               rel="noreferrer"
               title="Connect on LinkedIn"

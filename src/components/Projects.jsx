@@ -6,7 +6,7 @@ const LOCAL_MOCK_REPOS = [
     id: 101,
     name: "vscode-webdriverio-snippets",
     language: "JavaScript",
-    stargazers_count: 14,
+    stargazers_count: 2,
     html_url: "https://github.com",
     description: "Comprehensive code snippets extension for the WebDriverIO testing framework."
   },
@@ -14,7 +14,7 @@ const LOCAL_MOCK_REPOS = [
     id: 102,
     name: "vscode-nightwatchjs-snippets",
     language: "JavaScript",
-    stargazers_count: 8,
+    stargazers_count: 1,
     html_url: "https://github.com",
     description: "Ultimate boilerplate snippets extension for the NightwatchJS test engine."
   },
@@ -24,7 +24,7 @@ const LOCAL_MOCK_REPOS = [
     language: "TypeScript",
     stargazers_count: 2,
     html_url: "https://github.com",
-    description: "Personal senior developer portfolio rebuilt with React 19 and Rspack."
+    description: "Personal senior engineer portfolio rebuilt with React 19 and Rspack."
   }
 ];
 
@@ -61,7 +61,6 @@ export default function Projects() {
             onClick={() => setActiveFilter(lang)}
             style={{
               padding: '0.5rem 1rem',
-              // Dynamic background using your global theme variables
               background: activeFilter === lang ? 'var(--accent-blue)' : 'var(--bg-card)',
               color: activeFilter === lang ? 'var(--bg-main)' : 'var(--text-main)',
               border: '1px solid var(--border-color)',

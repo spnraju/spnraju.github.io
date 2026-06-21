@@ -1,4 +1,3 @@
-// src/App.jsx
 import React from 'react';
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router';
 import { useTheme } from './context/ThemeContext.jsx';
@@ -9,7 +8,6 @@ import Timeline from './components/Timeline.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
 
-// 1. The Global Application Layout Frame
 function BaseLayout() {
   const { theme } = useTheme();
 
@@ -35,7 +33,7 @@ function BaseLayout() {
               Senior Software Development Engineer in Test (SDET)
             </p>
             <p style={{ color: 'var(--text-muted)', lineHeight: '1.6', maxWidth: '650px', margin: 0 }}>
-              Specialized in scaling ultra-fast, robust JavaScript automation suites. I design and scale framework pipelines that protect product quality and accelerate team engineering delivery.
+              Specialized in designing and scaling high‑performance test automation ecosystems. I build resilient, maintainable frameworks and pipelines that safeguard product quality at scale and accelerate engineering delivery across teams and platforms.
             </p>
           </div>
 
@@ -52,7 +50,6 @@ function BaseLayout() {
   );
 }
 
-// 3. Default Root Page View Container Component
 function HomePage() {
   return (
     <>
@@ -61,7 +58,6 @@ function HomePage() {
   );
 }
 
-// 4. Main Export Orchestrator containing your route schema mapping
 export default function App() {
   const router = createBrowserRouter([
     {

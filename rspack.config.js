@@ -1,4 +1,3 @@
-// rspack.config.js
 import { defineConfig } from '@rspack/cli';
 import rspack from '@rspack/core';
 import path from 'path';
@@ -13,7 +12,7 @@ export default defineConfig({
     main: './src/main.jsx',
   },
   output: {
-    publicPath: isProd ? '/<your-repository-name>/' : '/',
+    publicPath: isProd ? '/spnraju.github.io/' : '/',
     filename: '[name].[contenthash].js',
   },
   resolve: {
@@ -54,7 +53,6 @@ export default defineConfig({
       template: './index.html',
     }),
   ],
-  // 🚀 FIXED: Turn off lazy barrel sorting to resolve lucide-react module resolution bugs
   experiments: {
     lazyBarrel: false,
   },
